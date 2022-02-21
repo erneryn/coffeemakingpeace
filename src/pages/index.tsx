@@ -30,8 +30,8 @@ export default function HomePage() {
           ></div> */}
           <div className='flex min-h-screen w-screen items-center justify-center'>
             <NextImage
-              src='images/jumbotron.png'
-              height={900}
+              src='/images/jumbotron.png'
+              height={600}
               width={1000}
               alt='jumbotron images'
             />
