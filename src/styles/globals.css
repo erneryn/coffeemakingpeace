@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -41,44 +42,47 @@
       U+2215, U+FEFF, U+FFFD;
   }
 
+  a {
+    @apply font-secondary;
+  }
+
   .cursor-newtab {
     cursor: url('/images/new-tab.png') 10 10, pointer;
   }
 
   /* #region  /**=========== Typography =========== */
   .h0 {
-    @apply font-primary text-3xl font-bold md:text-5xl;
+    @apply font-secondary text-3xl font-bold md:text-5xl;
   }
 
   h1,
   .h1 {
-    @apply font-primary text-2xl font-bold md:text-4xl;
+    @apply font-secondary text-2xl font-bold md:text-4xl;
   }
 
   h2,
   .h2 {
-    @apply font-primary text-xl font-bold md:text-3xl;
+    @apply font-secondary text-xl font-bold md:text-3xl;
   }
 
   h3,
   .h3 {
-    @apply font-primary text-lg font-bold md:text-2xl;
+    @apply font-secondary text-lg font-bold md:text-2xl;
   }
 
   h4,
   .h4 {
-    @apply font-primary text-base font-bold md:text-lg;
+    @apply font-secondary text-base font-bold md:text-lg;
   }
 
   body,
   .p {
-    @apply font-primary text-sm md:text-base;
+    @apply font-secondary text-sm md:text-base;
   }
   /* #endregion  /**======== Typography =========== */
 
   .layout {
     /* 1100px */
-    max-width: 68.75rem;
     @apply mx-auto w-11/12;
   }
 
