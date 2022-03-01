@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 module.exports = {
   eslint: {
-    dirs: ['src'],
+    dirs: ['src']
   },
 
   reactStrictMode: true,
@@ -23,12 +23,12 @@ module.exports = {
           loader: '@svgr/webpack',
           options: {
             typescript: true,
-            icon: true,
-          },
-        },
-      ],
+            icon: true
+          }
+        }
+      ]
     });
 
     return config;
-  },
+  }
 };
