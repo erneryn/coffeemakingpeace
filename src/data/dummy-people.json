@@ -1,0 +1,34 @@
+{
+  "people": [
+    {
+      "id": 1,
+      "name": "Bagus Heru Setiawan",
+      "occupation": "Coffee Roaster Consultan",
+      "image": "https://media-exp1.licdn.com/dms/image/C4E03AQHMguNJ-EhDFA/profile-displayphoto-shrink_200_200/0/1641361165656?e=1651708800&v=beta&t=ky4eMm2VFZ8NJFglszqsp26-G9p_jmlOb4YdI5ZSuks"
+    },
+    {
+      "id": 2,
+      "name": "Eryn Rizky Napitupulu",
+      "occupation": "Web Developer",
+      "image": "https://media-exp1.licdn.com/dms/image/C5603AQHS4WDHSpfhQA/profile-displayphoto-shrink_200_200/0/1609835562854?e=1651708800&v=beta&t=wbo7UFUBD0Kc0Mv_pywClEcfJXFb20Rzlda3xZEumVU"
+    },
+    {
+      "id": 3,
+      "name": "Raedy Ichsan",
+      "occupation": "Owner 117 Cafe",
+      "image": "/../../public/images/profile.png"
+    },
+    {
+      "id": 4,
+      "name": "Budi",
+      "occupation": "Bussines Consultan",
+      "image": "/../../public/images/profile.png"
+    },
+    {
+      "id": 5,
+      "name": "Joko",
+      "occupation": "Desaign",
+      "image": "/../../public/images/profile.png"
+    }
+  ]
+}

@@ -334,5 +334,5 @@ const colorList = [
   'gray',
   'zinc',
   'neutral',
-  'stone',
+  'stone'
 ] as const;

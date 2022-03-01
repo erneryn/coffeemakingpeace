@@ -1,0 +1,22 @@
+{
+  "product": [
+    {
+      "id": 1,
+      "name": "CMF THISERT BLACK",
+      "price": "IDR 250.000.00",
+      "image": "https://images.pexels.com/photos/8532616/pexels-photo-8532616.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+    },
+    {
+      "id": 2,
+      "name": "TROUSERS",
+      "price": "IDR 250.000.00",
+      "image": "https://images.pexels.com/photos/65676/nanjing-studio-jeans-65676.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+    },
+    {
+      "id": 3,
+      "name": "BUCKET HAT",
+      "price": "IDR 250.000.00",
+      "image": "https://images.pexels.com/photos/8346044/pexels-photo-8346044.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+    }
+  ]
+}

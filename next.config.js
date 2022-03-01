@@ -1,7 +1,11 @@
 /** @type {import('next').NextConfig} */
 module.exports = {
   eslint: {
-    dirs: ['src'],
+    dirs: ['src']
+  },
+
+  images: {
+    domains: ['cms.dailysocial.id', 'images.pexels.com', 'media-exp1.licdn.com']
   },
 
   reactStrictMode: true,
@@ -23,12 +27,12 @@ module.exports = {
           loader: '@svgr/webpack',
           options: {
             typescript: true,
-            icon: true,
-          },
-        },
-      ],
+            icon: true
+          }
+        }
+      ]
     });
 
     return config;
-  },
+  }
 };

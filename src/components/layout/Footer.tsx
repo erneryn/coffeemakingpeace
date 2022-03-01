@@ -2,7 +2,7 @@ import UnderlineLink from '../links/UnderlineLink';
 export default function Footer() {
   return (
     <div>
-      <div className='w-screen bg-black text-zinc-100'>
+      <div className='w-full bg-black text-zinc-100'>
         <div className='mx-auto flex w-11/12 text-zinc-500'>
           <span className='w-5/12 px-5 pt-4 text-xl'>About</span>
           <span className='w-4/12 px-5 pt-4 text-xl '>Contact</span>

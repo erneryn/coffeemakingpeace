@@ -5,7 +5,7 @@ import Logo from '@/components/icons/logo';
 import UnstyledLink from '@/components/links/UnstyledLink';
 
 const links = [
-  { href: '/', label: 'Stories' },
+  { href: '/stories', label: 'Stories' },
   { href: '/', label: 'Shop' },
   { href: '/', label: 'Folks' },
   { href: '/', label: 'About' }
