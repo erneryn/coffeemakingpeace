@@ -1,46 +1,38 @@
-import * as React from 'react';
+import Link from 'next/link';
+import React from 'react';
 
 import StoriesCard from '@/components/cards/StoriesCard';
-// import { useRouter } from 'next/router';
-// import UnstyledLink from '@/components/links/UnstyledLink';
 import Layout from '@/components/layout/Layout';
 import Seo from '@/components/Seo';
 
-import data from '../data/dummy-articles.json';
+import datas from '../data/dummy-articles.json';
+
+const data = datas.articles;
 
 export default function Stories() {
-  // const router = useRouter();
-  // const { id } = router.query;
-
   return (
     <Layout>
       <Seo />
       <main>
         <div className='mt-10 mb-20 flex w-full flex-row flex-wrap justify-around'>
           {data &&
-            data.articles.map((item) => (
-              // <UnstyledLink
-              //   href='/post/[id]/[comment]'
-              //   as={`/post/${id}/first-comment`}
-              //   className='mt-10 w-2/5 hover:border-b-zinc-500'
-              // >
-              //   <StoriesCard
-              //     key={item.id}
-              //     title={item.title}
-              //     time={item.created_date}
-              //     img={item.feature_image}
-              //   />
-              // </UnstyledLink>
-              <div
-                className='mt-10 w-2/5 hover:border-b-zinc-500'
+            data.map((item) => (
+              <Link
                 key={item.id}
+                href={{
+                  pathname: '/stories/[detailStories]',
+                  query: { detailStories: item.id }
+                }}
+                passHref
               >
-                <StoriesCard
-                  title={item.title}
-                  time={item.created_date}
-                  img={item.feature_image}
-                />
-              </div>
+                <div className='mt-10 w-2/5 hover:border-b-zinc-500'>
+                  <StoriesCard
+                    title={item.title}
+                    time={item.created_date}
+                    img={item.feature_image}
+                  />
+                </div>
+              </Link>
             ))}
         </div>
       </main>

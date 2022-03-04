@@ -34,7 +34,7 @@ export default function NextCarousel({
             min: 1024
           },
           items: 3,
-          partialVisibilityGutter: 40
+          partialVisibilityGutter: 120
         },
         mobile: {
           breakpoint: {

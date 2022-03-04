@@ -16,19 +16,19 @@
       "id": 3,
       "name": "Raedy Ichsan",
       "occupation": "Owner 117 Cafe",
-      "image": "/../../public/images/profile.png"
+      "image": "/images/profile.png"
     },
     {
       "id": 4,
       "name": "Budi",
       "occupation": "Bussines Consultan",
-      "image": "/../../public/images/profile.png"
+      "image": "/images/profile.png"
     },
     {
       "id": 5,
       "name": "Joko",
       "occupation": "Desaign",
-      "image": "/../../public/images/profile.png"
+      "image": "/images/profile.png"
     }
   ]
 }

@@ -1,14 +1,15 @@
+import Link from 'next/link';
 import * as React from 'react';
 
 import FolksCard from '@/components/cards/FolksCard';
 import ShopCard from '@/components/cards/ShopCard';
 import StoriesCard from '@/components/cards/StoriesCard';
 import Layout from '@/components/layout/Layout';
-import UnstyledLink from '@/components/links/UnstyledLink';
 import NextCarousel from '@/components/NextCarousel';
 import NextImage from '@/components/NextImage';
 import Seo from '@/components/Seo';
 
+import Dates from './date';
 import articles from '../data/dummy-articles.json';
 import people from '../data/dummy-people.json';
 import items from '../data/dummy-product.json';
@@ -24,12 +25,19 @@ import items from '../data/dummy-product.json';
 // Before you begin editing, follow all comments with `STARTERCONF`,
 // to customize the default configuration.
 
+// export const getStaticProps = async () => {
+//   const data = articles.articles;
+
+//   return {
+//     props: { article: data }
+//   };
+// };
+
 export default function HomePage() {
   return (
     <Layout>
       {/* <Seo templateTitle='Home' /> */}
       <Seo />
-
       <main>
         {/* JUMBOTRON */}
         <section id='' className='bg-white'>
@@ -57,22 +65,25 @@ export default function HomePage() {
             <div className=' mx-2 mt-6 mb-6 flex justify-around'>
               {articles &&
                 articles.articles.slice(0, 2).map((item) => (
-                  <div className='mt-10 w-2/5' key={item.id}>
-                    <StoriesCard
-                      title={item.title}
-                      time={item.created_date}
-                      img={item.feature_image}
-                    />
-                  </div>
+                  <Link href={'/stories/' + item.id} passHref key={item.id}>
+                    <div className='mt-10 w-2/5'>
+                      <StoriesCard
+                        title={item.title}
+                        time={Dates({
+                          cerated_date: item.created_date,
+                          location: item.location
+                        })}
+                        img={item.feature_image}
+                      />
+                    </div>
+                  </Link>
                 ))}
             </div>
             <div className='flex w-full items-center justify-center'>
               <hr className='h-0.5 w-full border-none bg-white' />
-              <UnstyledLink className='mx-8 min-w-fit' href='/stories'>
-                <button className='border-black text-lg font-bold hover:border-b-2'>
-                  MORE STORIES
-                </button>
-              </UnstyledLink>
+              <button className='mx-10 min-w-fit border-black text-lg font-bold hover:border-b-2'>
+                <Link href='/stories'>MORE STORIES</Link>
+              </button>
               <hr className='h-0.5 w-full bg-black' />
             </div>
           </div>

@@ -13,8 +13,8 @@ const links = [
 
 export default function Header() {
   return (
-    <header className='layout sticky top-0  z-50 bg-white'>
-      <div className='relative flex h-14 w-full items-center'>
+    <header className='layout sticky top-0  z-50  flex w-full border-b-2 border-black bg-white'>
+      <div className='relative mx-4 flex h-14 w-full items-center'>
         <UnstyledLink href='/' className='w-3/12 font-bold hover:text-gray-600'>
           <Logo />
         </UnstyledLink>

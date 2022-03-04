@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import * as React from 'react';
+import React from 'react';
 
 type FolksCardProps = {
   name?: string;
@@ -9,13 +9,13 @@ type FolksCardProps = {
 
 const FolksCard = ({ name, job, img }: FolksCardProps) => {
   return (
-    <div className='mr-14 flex h-fit w-fit justify-center bg-none'>
+    <div className='flex h-fit w-fit justify-center bg-none'>
       <div className='w-fit rounded-lg'>
         <Image
           className='rounded-full bg-none'
           src={img}
-          height='254.75px'
-          width='254.75px'
+          height='200px'
+          width='200px'
           alt='profile'
         />
 
