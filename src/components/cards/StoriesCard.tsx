@@ -13,7 +13,7 @@ const StoriesCard = ({ title, time, img }: StoriesCardProps) => {
       <div className='w-fit rounded-lg bg-white'>
         <div className='mt-1 mb-4'>
           <h2>{title}</h2>
-          <p className='text-sm font-bold tracking-wide'>{time}</p>
+          <p className='text-sm font-bold tracking-wide sm:text-xs'>{time}</p>
         </div>
         <a href='#!'>
           <Image

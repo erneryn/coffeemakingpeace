@@ -24,7 +24,7 @@ export default function Dates({ cerated_date, location }: DateProps) {
     location.substring(location.indexOf(' ') + 1) +
     ', ' +
     months[time.getMonth()] +
-    ', ' +
+    ' ' +
     time.getFullYear();
 
   return dates;

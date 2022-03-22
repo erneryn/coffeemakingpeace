@@ -9,7 +9,7 @@
       "author": "Marsya Nabila",
       "created_date": "2022-02-02",
       "location": "Jakarta, Indonesia",
-      "feature_image": "https://images.pexels.com/photos/6239866/pexels-photo-6239866.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940  "
+      "feature_image": "/images/article/1.jpeg"
     },
     {
       "id": 2,
@@ -20,7 +20,7 @@
       "author": "Natasha",
       "created_date": "2022-02-10",
       "location": "Jakarta, Indonesia",
-      "feature_image": "https://images.pexels.com/photos/6802983/pexels-photo-6802983.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+      "feature_image": "/images/article/2.jpg"
     },
     {
       "id": 3,
@@ -31,7 +31,7 @@
       "author": "Natasha",
       "created_date": "2022-02-10",
       "location": "Jakarta, Indonesia",
-      "feature_image": "https://images.pexels.com/photos/8936819/pexels-photo-8936819.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+      "feature_image": "/images/article/3.jpg"
     },
     {
       "id": 4,
@@ -42,7 +42,7 @@
       "author": "Marsya Nabila",
       "created_date": "2022-02-02",
       "location": "Jakarta, Indonesia",
-      "feature_image": "https://images.pexels.com/photos/6007667/pexels-photo-6007667.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+      "feature_image": "/images/article/4.jpg"
     },
     {
       "id": 5,
@@ -53,7 +53,7 @@
       "author": "Natasha",
       "created_date": "2022-02-10",
       "location": "Jakarta, Indonesia",
-      "feature_image": "https://images.pexels.com/photos/5794156/pexels-photo-5794156.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+      "feature_image": "/images/article/5.jpg"
     },
     {
       "id": 6,
@@ -64,7 +64,7 @@
       "author": "Natasha",
       "created_date": "2022-02-10",
       "location": "Jakarta, Indonesia",
-      "feature_image": "https://images.pexels.com/photos/8937357/pexels-photo-8937357.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+      "feature_image": "/images/article/6.jpg"
     },
     {
       "id": 7,
@@ -75,7 +75,7 @@
       "author": "Marsya Nabila",
       "created_date": "2022-02-02",
       "location": "Jakarta, Indonesia",
-      "feature_image": "https://cms.dailysocial.id/wp-content/uploads/2020/05/b9ef9af4231442413eff720f4b6b1d02_Coffee-is-still-the-trend-in-various-kinds-of-communities-in-Indonesia.jpg"
+      "feature_image": "/images/article/7.jpg"
     },
     {
       "id": 8,
@@ -86,7 +86,7 @@
       "author": "Natasha",
       "created_date": "2022-02-10",
       "location": "Jakarta, Indonesia",
-      "feature_image": "https://cms.dailysocial.id/wp-content/uploads/2022/02/46ae1b64b9ad20d134efb1fdfbe797fa_Shipsy-Team-1.jpeg"
+      "feature_image": "/images/article/8.jpg"
     }
   ]
 }

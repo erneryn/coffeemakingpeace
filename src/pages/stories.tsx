@@ -6,6 +6,7 @@ import Layout from '@/components/layout/Layout';
 import Seo from '@/components/Seo';
 
 import datas from '../data/dummy-articles.json';
+import Dates from '../lib/date';
 
 const data = datas.articles;
 
@@ -28,7 +29,10 @@ export default function Stories() {
                 <div className='mt-10 w-2/5 hover:border-b-zinc-500'>
                   <StoriesCard
                     title={item.title}
-                    time={item.created_date}
+                    time={Dates({
+                      cerated_date: item.created_date,
+                      location: item.location
+                    })}
                     img={item.feature_image}
                   />
                 </div>

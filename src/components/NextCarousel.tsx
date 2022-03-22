@@ -12,6 +12,7 @@ export default function NextCarousel({
     <Carousel
       additionalTransfrom={0}
       arrows
+      removeArrowOnDeviceType='mobile'
       autoPlay={true}
       autoPlaySpeed={3000}
       centerMode={false}
@@ -41,8 +42,8 @@ export default function NextCarousel({
             max: 464,
             min: 0
           },
-          items: 1,
-          partialVisibilityGutter: 30
+          items: 2,
+          partialVisibilityGutter: 40
         },
         tablet: {
           breakpoint: {
@@ -50,7 +51,7 @@ export default function NextCarousel({
             min: 464
           },
           items: 2,
-          partialVisibilityGutter: 30
+          partialVisibilityGutter: 10
         }
       }}
       showDots={false}

@@ -15,6 +15,9 @@ module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     extend: {
+      spacing: {
+        half: '50vh'
+      },
       fontFamily: {
         primary: ['Inter', ...fontFamily.sans],
         secondary: ['Arimo', 'sans-serif']

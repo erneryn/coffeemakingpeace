@@ -7,8 +7,8 @@ import React, { useEffect, useState } from 'react';
 import Layout from '@/components/layout/Layout';
 import Seo from '@/components/Seo';
 
-import Dates from '../date';
 import data from '../../data/dummy-articles.json';
+import Dates from '../../lib/date';
 
 // import { Item } from 'semantic-ui-react';
 

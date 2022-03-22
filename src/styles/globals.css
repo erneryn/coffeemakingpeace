@@ -130,3 +130,12 @@
   margin-bottom: 10px;
   text-align: justify;
 }
+
+.diagonal {
+  background: linear-gradient(
+    to top left,
+    #fff calc(50% - 1px),
+    black,
+    #fff calc(50% + 1px)
+  );
+}
