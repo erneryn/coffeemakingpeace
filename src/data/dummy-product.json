@@ -1,0 +1,22 @@
+{
+  "product": [
+    {
+      "id": 1,
+      "name": "CMF THISERT BLACK",
+      "price": "IDR 250.000.00",
+      "image": "/images/products/1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "TROUSERS",
+      "price": "IDR 250.000.00",
+      "image": "/images/products/2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "BUCKET HAT",
+      "price": "IDR 250.000.00",
+      "image": "/images/products/3.jpg"
+    }
+  ]
+}

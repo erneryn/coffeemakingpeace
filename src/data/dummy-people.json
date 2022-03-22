@@ -1,0 +1,34 @@
+{
+  "people": [
+    {
+      "id": 1,
+      "name": "Bagus Heru Setiawan",
+      "occupation": "Coffee Roaster Consultan",
+      "image": "/images/profile/1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Eryn Rizky Napitupulu",
+      "occupation": "Web Developer",
+      "image": "/images/profile/2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Raedy Ichsan",
+      "occupation": "Owner 117 Cafe",
+      "image": "/images/profile.png"
+    },
+    {
+      "id": 4,
+      "name": "Budi",
+      "occupation": "Bussines Consultan",
+      "image": "/images/profile.png"
+    },
+    {
+      "id": 5,
+      "name": "Joko",
+      "occupation": "Desaign",
+      "image": "/images/profile.png"
+    }
+  ]
+}

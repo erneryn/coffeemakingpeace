@@ -2,14 +2,14 @@ import UnderlineLink from '../links/UnderlineLink';
 export default function Footer() {
   return (
     <div>
-      <div className='w-screen bg-black text-zinc-100'>
-        <div className='mx-auto flex w-11/12 text-zinc-500'>
+      <div className='w-full bg-black text-zinc-100'>
+        <div className='mx-auto flex hidden w-11/12 text-zinc-500'>
           <span className='w-5/12 px-5 pt-4 text-xl'>About</span>
           <span className='w-4/12 px-5 pt-4 text-xl '>Contact</span>
           <span className='w-3/12 px-5 pt-4 text-xl '>Quick Link</span>
         </div>
-        <div className='mx-auto flex w-11/12'>
-          <div id='section-ft-1' className='w-5/12 p-5'>
+        <div className='mx-auto w-11/12 sm:flex'>
+          <div id='section-ft-1' className='p-5 sm:w-5/12'>
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui
               ducimus cum odio est fugit dolorum sunt recusandae saepe pariatur

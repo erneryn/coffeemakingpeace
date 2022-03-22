@@ -4,6 +4,10 @@ module.exports = {
     dirs: ['src']
   },
 
+  images: {
+    domains: ['cms.dailysocial.id', 'images.pexels.com', 'media-exp1.licdn.com']
+  },
+
   reactStrictMode: true,
 
   // Uncoment to add domain whitelist
